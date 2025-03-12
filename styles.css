@@ -2,20 +2,21 @@ body{
 
 font-family: Arial, Helvetica, sans-serif;
 margin: 0; /*espaçamento externo da pagina*/
-padding: 0%;/*espaçamento interno da pagina*/
+padding: 0;/*espaçamento interno da pagina*/
 background-color: aliceblue;
 text-align: center;/*texto centralizado*/
+background-color: rgb(27, 87, 156);
 
 }
 header{
 
-background-color: #28a745;
+background-color: #02c21b;
 color: aliceblue;
 padding: 15px 0px;/*15px (espaçamento interno acima e abaixo) e 0px (espaçamento esquerda e a direita)*/
 font-size: 24px;
 }
 
-nav{background: blueviolet;
+nav{background-color:rgb(255, 115, 0) ;
 padding: 10px;/*espaçamento interno d menu*/
 display: flex; /*flex boxing*/
 justify-content: space-between;/*espaço entre os elementos*/
@@ -38,9 +39,11 @@ nav a {
     text-decoration: none;/*não decora os links (underline, etc...)*/
     padding: 10px 15px; /*10px (acima e abaixo) 15px (esqurda direita)*/
     font-size: 18px;    
-    background-color: blueviolet;
+    background-color: black;
     border-radius: 5px/*bordas arredondadas*/
 
 
 }
+
+
 
