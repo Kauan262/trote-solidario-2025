@@ -30,17 +30,40 @@ align-items: center;/*alinhamento vertical*/
 #links-menu{
     
     display: flex;
-    gap: 30px; /*distancia entre os itens do menu*/
+    gap: 70px; /*distancia entre os itens do menu*/
 }
 
 nav a {
 
     color: aliceblue;
     text-decoration: none;/*não decora os links (underline, etc...)*/
-    padding: 10px 15px; /*10px (acima e abaixo) 15px (esqurda direita)*/
+    padding: 17px 15px; /*10px (acima e abaixo) 15px (esqurda direita)*/
     font-size: 18px;    
     background-color: black;
     border-radius: 5px/*bordas arredondadas*/
+
+
+}
+
+
+img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.container{
+width: 80%;
+background: white;
+border-radius: 10px ;
+/*espaçamento externo 20px acima e a baixo */
+/*espaçamento externo auto á direita e á esquerda*/
+margin: auto;
+padding: 20px;
+margin-top: 10px;
+
 
 
 }
