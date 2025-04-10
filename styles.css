@@ -1,77 +1,92 @@
-body{
-
-font-family: Arial, Helvetica, sans-serif;
-margin: 0; /*espaçamento externo da pagina*/
-padding: 0;/*espaçamento interno da pagina*/
-background-color: aliceblue;
-text-align: center;/*texto centralizado*/
-background-color: rgb(27, 87, 156);
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /* texto centralizado */
 }
-header{
-
-background-color: #02c21b;
-color: aliceblue;
-padding: 15px 0px;/*15px (espaçamento interno acima e abaixo) e 0px (espaçamento esquerda e a direita)*/
-font-size: 24px;
+header {
+    background-color: #28a745;
+    color: white;
+    /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
+    padding: 15px 0px;
+    font-size: 24px; 
 }
-
-nav{background-color:rgb(255, 115, 0) ;
-padding: 10px;/*espaçamento interno d menu*/
-display: flex; /*flex boxing*/
-justify-content: space-between;/*espaço entre os elementos*/
-align-items: center;/*alinhamento vertical*/
-
-
-
+nav {
+    background: #007bff;
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center; /* alinhamento na vertical */
 }
-
-
 #links-menu{
-    
     display: flex;
-    gap: 70px; /*distancia entre os itens do menu*/
+    gap: 20px; /* distância entre os itens do menu*/
+}
+nav a { /* configura os links do menu */
+    color: white;
+    text-decoration: none; /* não decora os links */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 5px; /* cantos arredondados */
 }
 
-nav a {
-
-    color: aliceblue;
-    text-decoration: none;/*não decora os links (underline, etc...)*/
-    padding: 17px 15px; /*10px (acima e abaixo) 15px (esqurda direita)*/
-    font-size: 18px;    
-    background-color: black;
-    border-radius: 5px/*bordas arredondadas*/
-
-
-}
-
-
-img{
-    width: 150px;
+img {
+    width: 120px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 80px; /* espaçamento externo à direita */
     border-radius: 10px;
 }
 
-
-.container{
-width: 80%;
-background: white;
-border-radius: 10px ;
-/*espaçamento externo 20px acima e a baixo */
-/*espaçamento externo auto á direita e á esquerda*/
-margin: auto;
-padding: 20px;
-margin-top: 10px;
-
-
-
+.container {
+    width: 80%; /* largura de 80% da largura da página */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */ 
+    text-align: justify;
+}
+h2 {
+    text-align: center;
 }
 
-ol li{
-padding-bottom: 20px;
-text-align: center;
+ol li {
+    padding-bottom: 10px;
 }
 
+table tr td {
+    padding: 20px;
+}
 
+table {
+    margin: 0 auto; /* centraliza a tabela na página */
+}
+
+.laranja {
+    background-color: orange;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxa {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+.azul {
+    background-color: navy;
+    color: white;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
 
